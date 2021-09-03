@@ -2,13 +2,13 @@
 Fuzzing Multiparty Protocols like Pub/Sub Protocols
 
 ## Usage
-MultiFuzz need to work with [desockmulti](https://github.com/zyingp/desockmulti). Please install it first.
+MultiFuzz needs to work with [desockmulti](https://github.com/zyingp/desockmulti). Please install it first.
 
-Then, similar with [AFL](https://github.com/google/AFL). Run MultiFuzz as follows:
+Then, similar with [AFL](https://github.com/google/AFL), run MultiFuzz as follows:
 
 `LD_PRELOAD=/path/to/desockmulti/desockmulti.so ./afl-fuzz -d -i testcase_dir -o findings_dir –-/path/to/program [...params...]`
 
-We also put some testcases we used under ./testcases/MultiFuzz/ if you are interested.
+We also put some testcases we used under ./testcases/MultiFuzz/ if you are interested in.
 
 ## Others
 If you use MutiFuzz/desockmulti, please kindly help to cite our paper:
